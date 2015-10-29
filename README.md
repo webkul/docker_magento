@@ -9,6 +9,8 @@ Run your container by following command :-
 
 Note-: No other services should be running on port 80 and 3306 of your host system. If so, change ports in the above docker command.
 
+Your DATABASE NAME for magento installation -: magento
+
 In order to access the credentials of your database, you have to get the container's console. Run the following command-:
 
 "docker ps" (to get the containers id)
