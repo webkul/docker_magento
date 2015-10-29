@@ -25,9 +25,9 @@ EXPOSE 80
 
 EXPOSE 3306
 
-ADD magento.zip /var/www/html/
+RUN cd /var/www/html && wget https://github.com/OpenMage/magento-mirror/archive/magento-1.9.zip
 
-RUN cd /var/www/html && unzip magento.zip
+RUN cd /var/www/html && unzip magento-1.9.zip
 
 RUN cd /var/www/html && chown -R www-data:www-data magento 
 
