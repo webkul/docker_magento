@@ -1,7 +1,7 @@
 # docker_magento
 Pull Image from DockerHub :-
 
-docker pull webkul/magento:latest
+"docker pull webkul/magento:latest"
 
 Run your container by following command :-
 
